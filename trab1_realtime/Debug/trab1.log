@@ -1,0 +1,17 @@
+﻿Build started 07/10/2013 13:53:59.
+     1>Project "C:\str\aulas\trab1_realtime_all_in\trab1_realtime\trab1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ic:\str /Ic:\str\freeRTOS\Source\include /Ic:\str\freeRTOS\Source\portable\WIN32 /Ic:\freeRTOS\Common\Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\trab1_realtime.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt trab1.cpp
+         trab1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\str\aulas\trab1_realtime_all_in\trab1_realtime\Debug\trab1_realtime.exe" /INCREMENTAL /NOLOGO wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\str\aulas\trab1_realtime_all_in\trab1_realtime\Debug\trab1_realtime.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\str\aulas\trab1_realtime_all_in\trab1_realtime\Debug\trab1_realtime.lib" /MACHINE:X86 Debug\interface.obj
+         Debug\stdafx.obj
+         Debug\trab1.obj
+         ..\..\..\freeRTOS\RTOS.lib
+         C:\str\NIDAQmx.lib
+         trab1.vcxproj -> C:\str\aulas\trab1_realtime_all_in\trab1_realtime\Debug\trab1_realtime.exe
+     1>Done Building Project "C:\str\aulas\trab1_realtime_all_in\trab1_realtime\trab1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10
